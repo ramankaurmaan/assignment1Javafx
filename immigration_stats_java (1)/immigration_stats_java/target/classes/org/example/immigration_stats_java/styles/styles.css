@@ -1,0 +1,28 @@
+/* styles.css */
+.root {
+    -fx-padding: 20;
+    -fx-spacing: 20;
+}
+
+.button {
+    -fx-padding: 15;
+    -fx-font-size: 16px;
+}
+
+.table-view {
+    -fx-font-size: 16px;
+    -fx-pref-height: 400px; /* Increased table height */
+}
+
+.pie-chart {
+    -fx-legend-visible: true;
+    -fx-pie-label-visible: true;
+    -fx-label-line-length: 10;
+    -fx-pref-width: 800px; /* Increased pie chart width */
+    -fx-pref-height: 600px; /* Increased pie chart height */
+}
+
+.pie-chart-container {
+    -fx-alignment: center;
+    -fx-padding: 20;
+}
